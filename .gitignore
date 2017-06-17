@@ -36,3 +36,5 @@ tramp
 # ssh key
 id_rsa*
 
+src
+data
