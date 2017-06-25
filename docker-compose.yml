@@ -4,5 +4,8 @@ services:
     build: .
     ports:
       - "8080:80"
+    depends_on:
+      - mail
     volumes:
       - ./data/mysql:/var/lib/mysql
+      - ./app/google-metadata:/var/www/google-metadata

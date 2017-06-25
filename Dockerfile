@@ -29,7 +29,7 @@ COPY files/root /
 # Copy google metadata application code
 COPY app /var/www
 
-VOLUME /var/www/
+VOLUME /var/www/google-metadata
 
 #RUN composer global require "laravel/installer"
 
