@@ -6,4 +6,3 @@ services:
       - "8080:80"
     volumes:
       - ./data/mysql:/var/lib/mysql
-      - ./app/google-metadata:/var/www/google-metadata
